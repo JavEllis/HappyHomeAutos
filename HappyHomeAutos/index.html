@@ -48,13 +48,13 @@
 			width: calc(100% - 20px); /* Adjusted width */
 			height: 50px;
 			margin-bottom: 10px; /* Adjusted margin */
-			background-color: #eee;
+			background-color: lightblue;
 			border: 1px solid #ccc;
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
 			padding: 0 10px;
-			color: #000;
+			color: black;
 		}
 
 		.switch input {
@@ -66,7 +66,7 @@
 			display: inline-block;
 			width: 40px;
 			height: 20px;
-			background-color: #ccc;
+			background-color: white;
 			border-radius: 20px;
 			transition: background-color 0.3s;
 			cursor: pointer;
@@ -79,7 +79,7 @@
 				width: 16px;
 				left: 2px;
 				bottom: 2px;
-				background-color: white;
+				background-color: black;
 				border-radius: 50%;
 				transition: transform 0.3s;
 			}
@@ -125,12 +125,40 @@
 </head>
 <body>
 	<header>
-		<h1>Goodmorning User, Welcome To Happy Homes Auto</h1>
+		<h1>Good morning User, Welcome To Happy Homes Auto</h1>
 	</header>
 	<div class="container">
 		<div class="left-section">
 			<div class="section">
-				<h2>Lights</h2>
+				<h2>Home Lights</h2>
+				<div class="light">
+					<span class="light-text">Bedroom 1</span>
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider"></span>
+					</label>
+				</div>
+				<div class="light">
+					<span class="light-text">Bedroom 2</span>
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider"></span>
+					</label>
+				</div>
+				<div class="light">
+					<span class="light-text">Bedroom 3</span>
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider"></span>
+					</label>
+				</div>
+				<div class="light">
+					<span class="light-text">Bathroom</span>
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider"></span>
+					</label>
+				</div>
 				<div class="light">
 					<span class="light-text">Kitchen</span>
 					<label class="switch">
@@ -146,42 +174,14 @@
 					</label>
 				</div>
 				<div class="light">
-					<span class="light-text">Bedroom</span>
+					<span class="light-text">Upstairs Hallway</span>
 					<label class="switch">
 						<input type="checkbox">
 						<span class="slider"></span>
 					</label>
 				</div>
 				<div class="light">
-					<span class="light-text">Bathroom</span>
-					<label class="switch">
-						<input type="checkbox">
-						<span class="slider"></span>
-					</label>
-				</div>
-				<div class="light">
-					<span class="light-text">Basement</span>
-					<label class="switch">
-						<input type="checkbox">
-						<span class="slider"></span>
-					</label>
-				</div>
-				<div class="light">
-					<span class="light-text">Attic</span>
-					<label class="switch">
-						<input type="checkbox">
-						<span class="slider"></span>
-					</label>
-				</div>
-				<div class="light">
-					<span class="light-text">Garage</span>
-					<label class="switch">
-						<input type="checkbox">
-						<span class="slider"></span>
-					</label>
-				</div>
-				<div class="light">
-					<span class="light-text">Office</span>
+					<span class="light-text">Downstairs Hallway</span>
 					<label class="switch">
 						<input type="checkbox">
 						<span class="slider"></span>
@@ -191,11 +191,12 @@
 			<div class="section">
 				<h2>Temperature</h2>
 				<p>Current: 25°C</p>
+				<p>Potential Temp: 27°C</p>
 			</div>
 		</div>
 		<div class="right-section">
 			<div class="section">
-				<h2>Power Consumption</h2>
+				<h2>Power Energy Usage</h2>
 				<div class="bar-chart">
 					<p class="bar-text">Mon (70%)</p>
 					<div class="bar" style="height: 70%;"></div>
