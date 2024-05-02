@@ -6,11 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyHomeAutos", "HappyHomeAutos\HappyHomeAutos.csproj", "{BB15A90A-66F5-4A13-880C-736ECC0F9CC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{C9053EC8-A691-44B0-BD40-4D323898FF1B}"
-	ProjectSection(SolutionItems) = preProject
-		index.html = index.html
-		login.html = login.html
-		registration.html = registration.html
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
